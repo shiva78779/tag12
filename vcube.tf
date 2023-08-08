@@ -1,13 +1,13 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIASIZOTLS5OCVER5OV"
-  secret_key = "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"
+  access_key = "AKIA3JSZOJBQ3JDNG43U"
+  secret_key = "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"
 }
 
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-terraform-bucket-lab-7-15-2023-raining"
+  bucket = "s3-terraform-bucket-lab-7-15-2023-raining123"
 
   acl    = "private"   # or can be "public-read"
 
