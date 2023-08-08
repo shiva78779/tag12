@@ -7,7 +7,7 @@ provider "aws" {
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-terraform-bucket-lab-7-15-2023-raining123"
+  bucket = "s3-raining123"
 
   acl    = "private"   # or can be "public-read"
 
