@@ -7,7 +7,7 @@ provider "aws" {
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-raining123"
+  bucket = "s3-chintha-bucket"
 
   acl    = "private"   # or can be "public-read"
 
